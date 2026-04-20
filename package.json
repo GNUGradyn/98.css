@@ -7,7 +7,7 @@
     "doc": "docs"
   },
   "scripts": {
-    "prepare": "node build.js",
+    "prepack": "node build.js",
     "deploy:docs": "npm run build && gh-pages -d dist",
     "release": "npm run build && npm publish"
   },
